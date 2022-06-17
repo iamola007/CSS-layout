@@ -1,0 +1,163 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: hsl(0, 0%, 95%);
+  font-size: 15px;
+  line-height: 1.5;
+  flex-direction: column;
+}
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+  width: 50%;
+}
+
+.sedans {
+  background-color: hsl(31, 77%, 52%);
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  height: 100%;
+}
+
+.suvs {
+  background-color: hsl(184, 100%, 22%);
+  height: 100%;
+}
+
+.luxury {
+  background-color: hsl(179, 100%, 13%);
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  height: 100%;
+}
+
+p {
+  color: hsla(0, 0%, 100%, 0.75);
+  font-family: "Lexend Deca", sans-serif;
+  font-weight: 400;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: hsl(0, 0%, 95%);
+  margin: 20px 0;
+  font-family: "Big Shoulders Display", cursive;
+  font-weight: 700;
+}
+
+.container {
+  margin: 40px;
+  margin-right: 39px;
+  height: 100%;
+}
+
+article {
+  height: 100%;
+}
+
+button {
+  margin-top: 4rem;
+  padding: 10px 25px;
+  border: 2px solid hsl(0, 0%, 95%);
+  border-radius: 20px;
+  background-color: hsl(0, 0%, 95%);
+  cursor: pointer;
+}
+
+.sedans button {
+  color: hsl(31, 77%, 52%);
+}
+
+.suvs button {
+  color: hsl(184, 100%, 22%);
+}
+
+.luxury button {
+  color: hsl(179, 100%, 13%);
+}
+
+.sedans button:hover {
+  color: hsl(0, 0%, 95%);
+  background-color: hsl(31, 77%, 52%);
+  transition: background-color 0.5s;
+  transition: color 0.5s;
+}
+
+.suvs button:hover {
+  color: hsl(0, 0%, 95%);
+  background-color: hsl(184, 100%, 22%);
+  transition: background-color 0.5s;
+  transition: color 0.5s;
+}
+
+.luxury button:hover {
+  color: hsl(0, 0%, 95%);
+  background-color: hsl(179, 100%, 13%);
+  transition: background-color 0.5s;
+  transition: color 0.5s;
+}
+
+#link {
+  border: 2px solid hsl(31, 77%, 52%);
+  background-color: hsl(31, 77%, 52%);
+  color: hsl(0, 0%, 95%);
+  margin: 20px 0;
+}
+
+#link:hover {
+  border: 2px solid hsl(184, 100%, 22%);
+  background-color: hsl(184, 100%, 22%);
+  color: hsl(0, 0%, 95%);
+  transition: background-color 0.5s;
+  transition: color 0.5s;
+}
+/* # Front-end Style Guide
+
+## Layout
+
+The designs were created to the following widths:
+
+- Mobile: 375px
+- Desktop: 1440px
+
+## Colors
+
+### Primary
+
+Bright orange: hsl(31, 77%, 52%)
+Dark cyan: hsl(184, 100%, 22%)
+Very dark cyan: hsl(179, 100%, 13%)
+
+### Neutral
+
+Transparent white (paragraphs): hsla(0, 0%, 100%, 0.75)
+Very light gray (background, headings, buttons): hsl(0, 0%, 95%)
+
+## Typography
+
+### Body Copy
+
+- Font size: 15px
+
+### Font
+
+- Family: [Lexend Deca](https://fonts.google.com/specimen/Lexend+Deca)
+- Weights: 400
+
+- Family: [Big Shoulders Display](https://fonts.google.com/specimen/Big+Shoulders+Display)
+- Weights: 700 */
